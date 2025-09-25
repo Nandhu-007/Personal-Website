@@ -1,0 +1,63 @@
+body {
+  width:100%;
+  height:100%;
+ background-color: black;
+ font-family:'Anton';
+ color:#E8E5DE;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display:flex;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  list-style-type: none;
+  width:100%;
+  overflow: hidden;
+  background-color: #DF3B32;
+  position: sticky;
+
+}
+.heading{
+  background-color: #DF3B32;
+}
+li {
+  float: right;
+  width: 33.3%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin:0;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:25%;
+  height:70%;
+  border-radius:45%;
+}
+
+h2{
+  text-align:left;
+  color:#DF3B32;
+  margin:5%;
+}
