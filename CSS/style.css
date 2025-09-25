@@ -1,4 +1,4 @@
-/* STYLE SECTIONING TAGS */
+
 body {
   width:100%;
   height:100%;
@@ -40,17 +40,12 @@ li a {
   padding: 14px 16px;
   margin:0;
   text-decoration: none;
+
 }
 
 li a:hover {
   background-color: #111;
 }
-
-
-
-
-
-
 
 h1 {font-family:'Anton';
    color:#DF3B32;
@@ -58,14 +53,14 @@ h1 {font-family:'Anton';
   font-size: 1.875em;
     margin-left:5%;
     margin-right:5%;
-    margin-top:0;
-    margin-bottom:0;
+    margin-top:2%;
+    margin-bottom:2%;
     align:left;
 }
 p{font-family:'Verdana'; 
   background-color: black;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1em;
   padding:6px;
   
 }
@@ -85,13 +80,13 @@ img {
 }
 .intro-section{
   display:flex;
-  flex-direction:row;
+  flex-direction: row;
   width:100%;
   height:100%;
   justify-content: center;
   align-content: space-evenly;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
  
 }
 
@@ -101,4 +96,19 @@ main{
   padding-top:0;
   padding-bottom:0;
   text-align: center;
+}
+
+ol{
+  margin: 5%;
+  font-family:'Verdana'; 
+  text-align: left;
+  font-size: 1em;
+  margin:2%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  
 }
